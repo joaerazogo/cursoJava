@@ -22,7 +22,7 @@ public class LibroCalificaciones {
 	public void procesaCalificaciones() {
 		
 		imprimirCalificaciones();
-		System.out.printf("%n%s %d%n%s %d", "La calificación más baja en el libro de calificaciones es: ", obtenerMinina(), "La calificación más alte en el libro de calificaciones es: ", obtenerMaxima());
+		System.out.printf("%n%s %d%n%s %d", "La calificaciï¿½n mï¿½s baja en el libro de calificaciones es: ", obtenerMinina(), "La calificaciï¿½n mï¿½s alte en el libro de calificaciones es: ", obtenerMaxima());
 		System.out.println("");
 		
 		imprimirGraficoBarras();
@@ -69,8 +69,8 @@ public class LibroCalificaciones {
 	
 	public void imprimirCalificaciones(){
 		
-		System.out.println("Las calificaciones son: %n%n");
-		System.out.println("             ");
+		System.out.printf("Las calificaciones son: %n%n");
+		System.out.print("             ");
 		
 		for (int prueba = 0; prueba < calificaciones[0].length; prueba++) {
 			System.out.printf("Prueba %d ", prueba + 1);
@@ -104,7 +104,7 @@ public class LibroCalificaciones {
 	
 	public void imprimirGraficoBarras() {
 		
-		System.out.println("Distribución de calificaciones en general");
+		System.out.println("Distribuciï¿½n de calificaciones en general");
 		
 		int[] frecuencia = new int[11];
 		
