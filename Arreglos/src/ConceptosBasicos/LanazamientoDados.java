@@ -38,7 +38,7 @@ public class LanazamientoDados {
 	public static void calcularCantidadResultados(int[] vectorNumeros) {
 		
 		int valorDos = 0, valorTres = 0, valorCuatro = 0, valorCinco = 0, valorSeis = 0, valorSiete = 0, valorOcho = 0, valorNueve = 0, valorDiez = 0, valorOnce = 0, valorDoce = 0;
-		String valorExtraño;
+		String valorExtranio;
 		
 		for (int i = 0; i < vectorNumeros.length; i++) {
 			
@@ -65,7 +65,7 @@ public class LanazamientoDados {
 		                 break;
 		        case 12: valorDoce++;
 		                 break;
-		        default: valorExtraño = "Valor extraño";
+		        default: valorExtranio = "Valor extranio";
 	                 break;
 			}
 		}
