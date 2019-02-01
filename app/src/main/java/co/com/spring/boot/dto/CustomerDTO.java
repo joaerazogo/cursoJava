@@ -1,6 +1,5 @@
 package co.com.spring.boot.dto;
 
-
 public class CustomerDTO {
 	
 	private String id;
