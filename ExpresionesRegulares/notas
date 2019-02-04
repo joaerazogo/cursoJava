@@ -1,0 +1,8 @@
+1 - EXPRESIONES REGULARES
+
+* una expresion regular es un objeto tipo string que describe un patrón de búsqueda para relacionar caracteres en otros objetos
+* valida entradas y asegura que el texto esté en un formato específico
+* "abcd" contiene "." punto es cualquier caracter, así que la "a" de "abcd" sería la primera coincidencia
+* "1.5" contiene "1\.5" el \ busca que el carácter tenga un punto
+* $ y ^ el primero representa el final de una cadena y el segundo representa el inicio de una cadena
+* "Hola mundo" no coincide ni contiene "^Hola$"
